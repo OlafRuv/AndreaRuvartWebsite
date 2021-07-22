@@ -1,0 +1,70 @@
+/* Import fonts from fonts.css */
+@import url('./fonts.css');
+
+/* CSS Variables */
+@import url('./partials/variables.css');
+
+
+/* Start of navigation */
+.header_area .main_menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main_menu .navbar{
+    padding: 1rem 10rem;
+}
+
+.header_area .main_menu .nav-item .nav-link{
+    font: sans-serif 500 15px/2px var(--montserrat);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main_menu .nav-item .container-fluid{
+    padding: 1rem;
+}
+
+.header_area .main_menu .nav-item .container-fluid .btn{
+    font: sans-serif 200 15px/2px var(--montserrat);
+    text-transform: uppercase;
+    padding: .7rem 2rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+.header_area .main_menu .nav-item .container-fluid .custom_contact_btn {
+    background-color: var(--button-primary-color);
+    color: var(--button-text-color);
+    border: 1px solid var(--button-primary-color);
+}
+  
+.header_area .main_menu .nav-item .container-fluid .custom_contact_btn:hover {
+    background-color: var(--button-hover-color);
+    color: var(--button-hover-text-color); 
+    border: 1px solid var(--button-primary-color);
+}
+
+.header_area .main_menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main_menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* End of navigation */
+
+/* Banner Area */
