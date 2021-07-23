@@ -11,11 +11,13 @@
 }
 
 .header_area .main_menu .navbar{
-    padding: 1rem 10rem;
+    padding: 0 10rem;
+    /*background-color: gray;*/
 }
 
 .header_area .main_menu .nav-item .nav-link{
     font: sans-serif 500 15px/2px var(--montserrat);
+    font-size: small;
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -27,6 +29,7 @@
 
 .header_area .main_menu .nav-item .container-fluid .btn{
     font: sans-serif 200 15px/2px var(--montserrat);
+    font-size: small;
     text-transform: uppercase;
     padding: .7rem 2rem;
     border: none;
@@ -68,3 +71,59 @@
 /* End of navigation */
 
 /* Banner Area */
+
+.site-main .site-banner{
+    background: url(../img/background-img.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*.site-main .site-banner{
+    background: url(../img/banner-back.png) no-repeat 70% 50%;
+    background-size: 20rem 30rem;
+    background-position-x: 50%;
+}*/
+
+.site-main .site-banner .site-tittle h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-tittle h3::after{
+    content: "";
+    height: 1px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-5px);
+}
+
+.site-main .site-banner .site-tittle h1{
+    font-size: 3rem;
+}
+
+.site-main .site-banner .site-tittle h4{
+    font-size: 1rem;
+}
+
+.site-main .site-banner .banner-image> img{
+    padding: 3.5rem 0;
+    width: 15rem;
+}
+
+.banner-title-text2{
+    font:normal 400 18px/27px var(--montserrat);
+}
+
+.banner-title-text1{
+    font:normal 400 18px/72px var(--montserrat);
+}
+
+.banner-description{
+    font:normal 400 100px/27px var(--montserrat);
+}
+/* Banner Area */
+
