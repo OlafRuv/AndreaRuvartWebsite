@@ -1,83 +1,75 @@
 /* Import fonts from fonts.css */
-@import url('./fonts.css');
+@import url("./fonts.css");
 
 /* CSS Variables */
-@import url('./partials/variables.css');
-
+@import url("./partials/variables.css");
 
 /* Start of navigation */
-.header_area .main_menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+.header-area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
 }
 
-.header_area .main_menu .navbar{
-    padding: 0 10rem;
-    /*background-color: gray;*/
+.header-area .main-menu .navbar {
+  padding: 1rem 10rem;
 }
 
-.header_area .main_menu .nav-item .nav-link{
-    font: sans-serif 500 15px/2px var(--montserrat);
-    font-size: small;
-    text-transform: uppercase;
-    padding: 1.7rem;
-    color: var(--title-color);
+.header-area .main-menu .nav-item .nav-link {
+  font: sans-serif 500 15px/2px var(--montserrat);
+  font-size: small;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  color: var(--title-color);
 }
 
-.header_area .main_menu .nav-item .container-fluid{
-    padding: 1rem;
+.header-area .main-menu .btn {
+  font: sans-serif 500 15px/2px var(--montserrat);
+  font-size: small;
+  text-transform: uppercase;
+  padding: .5rem 2rem;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
 }
 
-.header_area .main_menu .nav-item .container-fluid .btn{
-    font: sans-serif 200 15px/2px var(--montserrat);
-    font-size: small;
-    text-transform: uppercase;
-    padding: .7rem 2rem;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 12px;
-
+.header-area .main-menu .custom_contact_btn {
+  background-color: var(--button-primary-color);
+  color: var(--button-text-color);
+  border: 1px solid var(--button-primary-color);
 }
 
-.header_area .main_menu .nav-item .container-fluid .custom_contact_btn {
-    background-color: var(--button-primary-color);
-    color: var(--button-text-color);
-    border: 1px solid var(--button-primary-color);
-}
-  
-.header_area .main_menu .nav-item .container-fluid .custom_contact_btn:hover {
-    background-color: var(--button-hover-color);
-    color: var(--button-hover-text-color); 
-    border: 1px solid var(--button-primary-color);
+.header-area .main-menu .custom_contact_btn:hover {
+  background-color: var(--button-hover-color);
+  color: var(--button-hover-text-color);
+  border: 1px solid var(--button-primary-color);
 }
 
-.header_area .main_menu .navbar-nav .active a{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.header-area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.header_area .main_menu .navbar-nav a:hover{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.header-area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* End of navigation */
 
 /* Banner Area */
-
-.site-main .site-banner{
-    background: url(../img/background-img.png);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+.site-main .site-banner {
+  background: url(../img/background-img.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /*.site-main .site-banner{
@@ -86,44 +78,43 @@
     background-position-x: 50%;
 }*/
 
-.site-main .site-banner .site-tittle h3{
-    padding-top: 35%;
-    font-weight: 500;
+.site-main .site-banner .site-tittle h3 {
+  padding-top: 35%;
+  font-weight: 500;
 }
 
-.site-main .site-banner .site-tittle h3::after{
-    content: "";
-    height: 1px;
-    width: 18vw;
-    background: black;
-    display: inline-block;
-    margin-left: 5%;
-    transform: translateY(-5px);
+.site-main .site-banner .site-tittle h3::after {
+  content: "";
+  height: 1px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-5px);
 }
 
-.site-main .site-banner .site-tittle h1{
-    font-size: 3rem;
+.site-main .site-banner .site-tittle h1 {
+  font-size: 3rem;
 }
 
-.site-main .site-banner .site-tittle h4{
-    font-size: 1rem;
+.site-main .site-banner .site-tittle h4 {
+  font-size: 1rem;
 }
 
-.site-main .site-banner .banner-image> img{
-    padding: 3.5rem 0;
-    width: 15rem;
+.site-main .site-banner .banner-image > img {
+  padding: 3.5rem 0;
+  width: 15rem;
 }
 
-.banner-title-text2{
-    font:normal 400 18px/27px var(--montserrat);
+.banner-title-text2 {
+  font: normal 400 18px/27px var(--montserrat);
 }
 
-.banner-title-text1{
-    font:normal 400 18px/72px var(--montserrat);
+.banner-title-text1 {
+  font: normal 400 18px/72px var(--montserrat);
 }
 
-.banner-description{
-    font:normal 400 100px/27px var(--montserrat);
+.banner-description {
+  font: normal 400 100px/27px var(--montserrat);
 }
 /* Banner Area */
-
