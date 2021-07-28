@@ -1,17 +1,23 @@
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    .header_area .main-menu .navbar
-    /*.site-main .subscribe-us-area .subscribe .subscribe-title,
-    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
-    .site-main .services-area,
-    .site-main .subscribe-us-area .subscribe*/
+    .header-area .main-menu .navbar,
+    .header-area .main-menu .navbar .navbar-brand
     {
-        padding: 0;
+        padding:.5rem 1rem .5rem 1rem ;
         margin: 0%;
     }
-    .header_area .main_menu .nav-item .nav-link{
+    .header-area .main_menu .nav-item .nav-link{
         padding: 1%;
+    }
+
+    .site-main .site-banner .site-title h3 {
+        padding-top: 5%;
+    }
+
+    .site-main{
+        height: 200vh;
+        padding-top: 7rem;
     }
 }
 

@@ -11,6 +11,7 @@
 
 .header-area .main-menu .navbar {
   padding: 1rem 10rem;
+  background-color: whitesmoke;
 }
 
 .header-area .main-menu .nav-item .nav-link {
@@ -25,7 +26,7 @@
   font: sans-serif 500 15px/2px var(--montserrat);
   font-size: small;
   text-transform: uppercase;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   border: none;
   text-align: center;
   text-decoration: none;
@@ -64,57 +65,60 @@
 /* End of navigation */
 
 /* Banner Area */
-.site-main .site-banner {
-  background: url(../img/background-img.png);
+.site-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/background-img2.png);
+    padding-top: 10rem;
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  color: whitesmoke;
 }
 
-/*.site-main .site-banner{
-    background: url(../img/banner-back.png) no-repeat 70% 50%;
-    background-size: 20rem 30rem;
-    background-position-x: 50%;
-}*/
-
-.site-main .site-banner .site-tittle h3 {
-  padding-top: 35%;
-  font-weight: 500;
+.site-main .site-banner .banner-image {
+  background: url(../img/banner-back.png) no-repeat 70% 50%;
+  background-size: 20rem 30rem;
+  background-position-x: 50%;
 }
 
-.site-main .site-banner .site-tittle h3::after {
+.site-main .site-banner .site-title h3 {
+  padding-top: 20%;
+  font-weight: 300;
+}
+
+.site-main .site-banner .site-title h3::after {
   content: "";
-  height: 1px;
+  height: 2px;
   width: 18vw;
-  background: black;
+  background: whitesmoke;
   display: inline-block;
   margin-left: 5%;
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 
-.site-main .site-banner .site-tittle h1 {
+.site-main .site-banner .site-title h1 {
   font-size: 3rem;
 }
 
-.site-main .site-banner .site-tittle h4 {
-  font-size: 1rem;
+.site-main .site-banner .site-title h4 {
+  font-size: 1.25rem;
 }
 
+.site-main .site-banner .banner-image {
+  text-align: center;
+}
 .site-main .site-banner .banner-image > img {
-  padding: 3.5rem 0;
-  width: 15rem;
+  padding: 4rem 0;
+  height: 35rem;
 }
 
-.banner-title-text2 {
+.title-text {
+  font: normal 500 50px/53px var(--playfair_display);
+}
+
+.description-text {
   font: normal 400 18px/27px var(--montserrat);
 }
 
-.banner-title-text1 {
-  font: normal 400 18px/72px var(--montserrat);
-}
-
-.banner-description {
-  font: normal 400 100px/27px var(--montserrat);
-}
 /* Banner Area */
